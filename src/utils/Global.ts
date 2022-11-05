@@ -15,6 +15,8 @@ export const CSSReset = css`
     line-height: 1.6;
     font-weight: 400;
     margin: 0;
+    background-color: #202142;
+    color: #fff;
   }
 
   img {

@@ -1,11 +1,12 @@
 import { Global } from '@emotion/react';
+import Home from './pages/Home';
 import { CSSReset } from './utils/Global';
 
 const App = () => {
   return (
     <>
       <Global styles={CSSReset} />
-      <h1>Feedback app</h1>
+      <Home />
     </>
   );
 };
